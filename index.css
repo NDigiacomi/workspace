@@ -1,0 +1,90 @@
+.body{
+    display: flex;
+}
+
+
+
+.img1 {
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    height: 50%;
+}
+.img2 {
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    height:50%;
+
+}
+
+.main { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid rgb(0, 0, 0); 
+    border-style: dashed;
+    margin: 0px; 
+    padding: 20px; 
+} 
+
+.title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: larger;
+    font: 300 30px/1.6 system-ui;
+    font-weight: bolder;
+}
+    
+.subtitle {
+    display: flex;
+    padding-bottom: 15px;
+    flex-direction: column;
+    font-size: medium;
+    font-style: italic;
+    font: 300 18px/1.6 system-ui;
+}
+    
+.content {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 2rem;
+    font: 300 16px/1.6 system-ui;
+}
+
+
+.nav ul { 
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0); 
+    border-style: dashed;
+    flex-direction: row;
+    list-style: none;
+    padding: 2px; 
+    flex: 3;
+    }
+    a { 
+        color:rgb(0, 0, 0);
+        text-decoration:none;
+    }
+    a:hover, a:focus {
+        text-decoration:underline;
+    }
+.nav li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+}
+
