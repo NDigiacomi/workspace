@@ -1,46 +1,66 @@
+.body {
+    display: flex;
+}
+
 
 .main { 
     display: flex;
-    flex-direction: column;
     height: 100%;
-    font-family: 'Courier New', Courier, monospace;
     border: 1px solid rgb(0, 0, 0); 
     border-style: dashed;
-    margin: 0px; 
+    margin: 0px;
+    flex-direction: column; 
     padding: 20px; 
 } 
 
-.pic1 {
+.title {
     display: flex;
-    flex-direction: row;
-    float:left;
-    height: 50%;
-    width: 50%;
-}
-
-.pic2 {
-    display: flex;
-    flex-direction: row;
-    float: right;
-    height: 50px;
-    width: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: larger;
+    font: 300 36px/1.6 system-ui;
+    font-weight: bolder;
 }
 
 .content {
     display: flex;
     font-size: medium;
+    float:right;
     text-align: justify;
     text-justify: inter-word;
     max-width: 450px;
-    float: right;
     font: 300 16px/1.6 system-ui;
+    padding-top: 10px;
+}
+
+.aside {
+    display: flex;
+    flex: 0 0 20vw;
+    padding-left: 5px;
+}
+
+.pic1 img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    padding-right: 20px;
+}
+
+.pic2 img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    padding-left: 20px;
 }
 
 .title {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     font-size: larger;
-    font: 300 30px/1.6 georgia;
+    font: 300 36px/1.6 system-ui;
     font-weight: bolder;
 }
 
@@ -85,4 +105,5 @@ a:hover, a:focus {
     font-size: medium;
     font-weight: bold;
 }
+
 
