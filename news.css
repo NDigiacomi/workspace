@@ -12,7 +12,7 @@
     } 
 
     h1 {text-align: center;}
-    p {text-align: center;}
+
     .title {
         display: flex;
         flex-direction: column;
